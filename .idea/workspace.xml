@@ -4,22 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be7f24fd-e468-42c3-a981-7d441e1633a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sumana/parkinglot/domain/ParkingLot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sumana/parkinglot/domain/area/ParkingLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sumana/parkinglot/domain/area/ParkingSlot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sumana/parkinglot/domain/exception/InsufficientSlotsPerLevelException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sumana/parkinglot/domain/exception/NotAvailableSlotsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sumana/parkinglot/domain/payments/Placement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sumana/parkinglot/domain/vehicles/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sumana/parkinglot/domain/vehicles/Motorcycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sumana/parkinglot/domain/vehicles/Size.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sumana/parkinglot/domain/vehicles/Van.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sumana/parkinglot/domain/vehicles/Vehicle.java" afterDir="false" />
+    <list default="true" id="be7f24fd-e468-42c3-a981-7d441e1633a5" name="Changes" comment="Parking entities added (slot, vehicle, level, placement)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sumana/parkinglot/domain/payments/Retirement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sumana/parkinglot/domain/area/ParkingLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sumana/parkinglot/domain/area/ParkingLevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sumana/parkinglot/domain/payments/Placement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sumana/parkinglot/domain/payments/Placement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sumana/parkinglot/domain/vehicles/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sumana/parkinglot/domain/vehicles/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,25 +42,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JAVA"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.sumana.parkinglot.domain.area" />
@@ -97,11 +88,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674530995618</updated>
-      <workItem from="1674530997636" duration="18289000" />
+      <workItem from="1674530997636" duration="18397000" />
+      <workItem from="1674917418858" duration="995000" />
+      <workItem from="1675039551928" duration="776000" />
+      <workItem from="1675043242857" duration="2518000" />
     </task>
+    <task id="LOCAL-00001" summary="Parking entities added (slot, vehicle, level, placement)">
+      <created>1674714689054</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674714689054</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Parking entities added (slot, vehicle, level, placement)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Parking entities added (slot, vehicle, level, placement)" />
   </component>
 </project>

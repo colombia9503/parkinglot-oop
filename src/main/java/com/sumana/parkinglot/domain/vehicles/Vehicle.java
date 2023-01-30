@@ -2,13 +2,14 @@ package com.sumana.parkinglot.domain.vehicles;
 
 import com.sumana.parkinglot.domain.area.ParkingSlot;
 import com.sumana.parkinglot.domain.payments.Placement;
+import lombok.Data;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
+@Data
 @RequiredArgsConstructor
 public abstract class Vehicle {
     protected List<ParkingSlot> parkingSlots = new ArrayList<>();

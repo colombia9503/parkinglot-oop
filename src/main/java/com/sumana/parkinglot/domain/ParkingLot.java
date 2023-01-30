@@ -12,6 +12,6 @@ public class ParkingLot {
     public ParkingLot(int numberOfLevels, int cellsPerLevel) {
         this.cellsPerLevel = cellsPerLevel;
         this.parkingLevels = new ParkingLevel[numberOfLevels];
-
+        // TODO implement parking lot logic, it is already implemented for levels
     }
 }

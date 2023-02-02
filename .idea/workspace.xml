@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be7f24fd-e468-42c3-a981-7d441e1633a5" name="Changes" comment="Parking entities added (slot, vehicle, level, placement)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sumana/parkinglot/domain/payments/Retirement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="be7f24fd-e468-42c3-a981-7d441e1633a5" name="Changes" comment="TODO Comments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sumana/parkinglot/domain/area/ParkingLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sumana/parkinglot/domain/area/ParkingLevel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sumana/parkinglot/domain/payments/Placement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sumana/parkinglot/domain/payments/Placement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sumana/parkinglot/domain/vehicles/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sumana/parkinglot/domain/vehicles/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +86,7 @@
       <workItem from="1674530997636" duration="18397000" />
       <workItem from="1674917418858" duration="995000" />
       <workItem from="1675039551928" duration="776000" />
-      <workItem from="1675043242857" duration="2518000" />
+      <workItem from="1675043242857" duration="3536000" />
     </task>
     <task id="LOCAL-00001" summary="Parking entities added (slot, vehicle, level, placement)">
       <created>1674714689054</created>
@@ -100,7 +95,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674714689054</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Retirement logic implemented for the level retirement of a car.">
+      <created>1675047947569</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675047947569</updated>
+    </task>
+    <task id="LOCAL-00003" summary="TODO Comments">
+      <created>1675052524029</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675052524029</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +117,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Parking entities added (slot, vehicle, level, placement)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Parking entities added (slot, vehicle, level, placement)" />
+    <MESSAGE value="Retirement logic implemented for the level retirement of a car." />
+    <MESSAGE value="TODO Comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="TODO Comments" />
   </component>
 </project>
